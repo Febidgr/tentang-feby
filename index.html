@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Febi Dwi Sulastri</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .nav {
+            height: 8vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+        .home {
+            min-height: 92vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: black;
+            color: white;
+            gap: 20px;
+        }
+        .foto img {
+            width: 35vmin; /* Use vmin to ensure image scales with viewport */
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px 0 rgba(231, 231, 231, 0.2), 0 6px 20px 0 rgba(239, 239, 239, 0.19);
+        }
+        .intro {
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #f3e34f);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+        .about {
+            width: 80vw; /* Use vw for better responsiveness */
+            max-width: 800px; /* Limit maximum width for readability */
+            text-align: justify;
+        }
+        .home2 {
+            min-height: 100vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .experience {
+            flex: 1; /* Equal width columns */
+            max-width: 300px; /* Limit maximum width for readability */
+            margin: 20px;
+        }
+        .experience ul {
+            list-style-type: none; /* Remove bullets */
+            padding: 0;
+        }
+        .experience ul li {
+            margin-bottom: 10px;
+        }
+        .sosmed {
+            margin-top: 30px;
+            border-radius: 8px;
+            width: 150px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .sosmed a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 10px;
+        }
+        @media (max-width: 768px) {
+            /* Adjustments for smaller screens */
+            .home {
+                padding: 20px;
+                gap: 10px;
+            }
+            .foto img {
+                width: 50vmin;
+            }
+            .about {
+                width: 90vw;
+            }
+            .experience {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <!-- Navbar content -->
+    </div>
+
+    <div class="home">
+        <div class="foto">
+            <img src="./saya.jpeg" alt="">
+        </div>
+        <div class="about">
+            <h1 class="intro">Hi Nama Saya Febi Dwi Sulastri</h1>
+            <p>Saya merupakan mahasiswa fakultas hukum universitas bengkulu, umur saya 19 tahun. Saya merupakan seorang Atlet Silat dari daerah Kaur saya pernah ikut lomba silat di tingkat provinsi sebagai juara 3 Remaja dan nasional juara 1 Remaja. Saya bisa menyesuaikan diri bekerja sama dengan tim sebagai organisasi radelrs dan juga di organisasi SMA menjabat sebagai ketua bidang Olahraga.</p>
+        </div>
+        <div class="sosmed">
+            <a href="https://www.instagram.com/Febiidgr25_/">MY INSTAGRAM</a>
+        </div>
+    </div>
+
+    <div class="home2">
+        <div class="aboutme">   
+            <div class="experience">
+                <h1 class="intro">Experience</h1>
+                <ul>
+                    <li>Pada tahun 2022-2023 Osis menjabat sebagai Ketua Organisasi Olahraga</li>
+                    <li>Volunteer @Pahlawan.sampah pada bulan Agustus 2023</li>
+                    <li>Radels sebagai anggota pudek documentasi</li>
+                    <li>Popda Silat Remaja Tahun 2018</li>
+                    <li>Kejurda Silat Remaja Tahun 2018</li>
+                    <li>Popnas Silat Remaja 2020</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h1 class="intro">Education</h1>
+                <ul>
+                    <li>MTsN 1 Kaur</li>
+                    <li>SMAN 1 Kaur</li>
+                    <li>Universitas Bengkulu (Fakultas Hukum)</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h1 class="intro">Organizations and Volunteering</h1>
+                <ul>
+                    <li>Radelrs jabatan sebagai pudek Documentasi</li>
+                    <li>Ketua Osis di bidang Olahraga</li>
+                    <li>Anggota Organisasi Silat di SMA</li>
+                    <li>Volunteer, peserta di @pahlawan.sampah</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h1 class="intro">Skills</h1>
+                <ul>
+                    <li>MS Word (Basic)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
